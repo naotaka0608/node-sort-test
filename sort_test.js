@@ -28,7 +28,7 @@ let array_value =
 
 
 // JavaScriotでクイックソートを作成
-/*
+
 {
     let test1 = Array.from(array_value);
     // console.info(test1);
@@ -40,7 +40,7 @@ let array_value =
     console.info(microtime.now() - start1);    
     // console.info(test1);
 }
-*/
+
 
 // array.sort()
 /*
