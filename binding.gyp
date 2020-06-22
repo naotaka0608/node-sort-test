@@ -1,0 +1,16 @@
+{   "targets":
+    [   
+        {   
+            "target_name"   : "addon",
+            
+            "sources"       : [ 
+                "addon.cpp", 
+                "myLib/sortLib.h",  "myLib/sortLib.cpp" 
+            ],
+
+            "defines"       : [ "NAPI_DISABLE_CPP_EXCEPTIONS" ],
+            
+            "include_dirs"  : [ "<!@(node -p \"require( 'node-addon-api' ).include\")" ]
+        }
+    ]
+}
