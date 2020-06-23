@@ -43,7 +43,7 @@ let array_value =
 
 
 // array.sort()
-/*
+
 {
     let test2 = Array.from(array_value);
     // console.info(test2);
@@ -55,10 +55,10 @@ let array_value =
     console.info(microtime.now() - start2);
     // console.info(test2);
 }
-*/
+
 
 // JavaScript -> C++
-/*
+
 {
     let test3 = Array.from(array_value);
     // console.info(test3);
@@ -70,9 +70,9 @@ let array_value =
     console.info(microtime.now() - start2);
     // console.info(test4);
 }
-*/
 
 
+// JavaScriptでQuickSortをベタ書き
 function QuickSort(array, left, right){
 
     let i, j;
