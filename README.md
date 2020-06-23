@@ -33,3 +33,25 @@ MacOS10 と Windows10 ともに動いた。
 
 # 速度
 MacOSだと2と3は同じくらいだったけど、Windowsだと2の方が速い。もっと要素数を増やした方がわかる？？
+
+# 参考サイト
+
+
+- ドキュメント
+
+https://nodejs.org/api/addons.html
+
+- JavaScript の配列を C++ 配列へ
+
+https://stackoverflow.com/questions/52553524/node-addon-api-pass-array-as-function-argument
+
+https://medium.com/@denismalykhin/n-api-add-on-and-js-code-performance-comparison-9a69c6282fa6
+
+- JavaScript のNumberを C++ double へ
+
+https://qiita.com/Satachito/items/fa681ba96dc8e52ca7c1
+
+
+- 色々な例を作ってアップしてくれてる
+
+https://github.com/nodejs/abi-stable-node-addon-examples
